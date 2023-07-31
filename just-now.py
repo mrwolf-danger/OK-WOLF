@@ -35,9 +35,9 @@ import base64
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
  
-logo = """\033[1;92m  ____  _   _    _    _   _ _____ ___  
+logo = """\033[1;92m  
  
-    __  ______    _      ______  __   ____
+   __  ______    _      ______  __   ____
   /  |/  / _ \  | | /| / / __ \/ /  / __/
  / /|_/ / , _/  | |/ |/ / /_/ / /__/ _/  
 /_/  /_/_/|_|   |__/|__/\____/____/_/    
@@ -45,7 +45,7 @@ logo = """\033[1;92m  ____  _   _    _    _   _ _____ ___
                                                                                     
 \033[1;90m════════════════════════════════════════════════
 \033[1;91m [\033[1;94m+\033[1;91m] \033[1;92mAUTHOR : MR WOLF
-\033[1;91m [\033[1;94m+\033[1;91m] \033[1;92mSTATUS : PAID
+\033[1;91m [\033[1;94m+\033[1;91m] \033[1;92mSTATUS : FREE
 \033[1;91m [\033[1;94m+\033[1;91m] \033[1;92mWARNING   : DON'T DECODE MY TOOL 
 \033[1;91m [\033[1;94m+\033[1;91m] \033[1;92mVERSION  : 3.0
 \033[1;90m════════════════════════════════════════════════
@@ -96,9 +96,6 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print(' \033[1;95mDont Decode My Tools \033[0m')
-		print(' \033[1;95mThis Tool Clone Old Random Account \033[0m')
-		print("")
 		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s[JUST-NOW]"%(P,G,R,Y,B))
 		print(" \033[1;96m[2] EXIT")
 		__qsr = input("\n\033[0;91m>>> \033[0;92m CHOOSE \033[0m: ")
